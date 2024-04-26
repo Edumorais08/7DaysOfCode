@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco-primario: #FFFFFF;
+    --cinza: #667085;
+    --botao-vermelho: #8E2424;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--branco-primario);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    margin: 1.5em 3em;
+    color: var(--cinza);
+    
+}
+
+.cabecalho__logo {
+    padding: 0 0.5;
+}
+
+
+.cabecalho__container {
+    padding: 0 5em;
+}
+
+.cabecalho__container__link {
+    text-decoration: none;
+    padding: 1em;  
+}
+
+.cabecalho__botoes {
+    padding-left: 21em;
+}
+
+.cabecalho__container__botao {
+    border-radius: 8px;
+    padding: 1em;
+    background-color: #8E2424;
+    color: var(--branco-primario);
+    text-decoration: none;
+}
