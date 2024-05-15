@@ -111,6 +111,7 @@ body {
     align-items: center;
     gap: 2em;
     padding-top: 5em;
+    margin-bottom: 64px;
 }
 
 .talentos__span {
@@ -147,6 +148,7 @@ body {
 
 .vagas__container {
     padding-left: 21rem;
+    margin-bottom: 96px;
 }
 
 .vagas__area {
@@ -178,4 +180,58 @@ body {
     line-height: 28px;
     gap: 1.5rem;
     padding-left: 24px;
+}
+
+.depoimentos__container {
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(142, 36, 36, 0.05);
+    width: 1216px;
+    height: 384px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.depoimentos__span {
+    color: var(--vermelho);
+    font-size: 14px;
+    top: 64px;
+    left: 440.5px;
+    position: absolute;
+}
+
+.depoimentos__titulo {
+    color: var(--preto);
+    font-size: 36px;
+    padding-left: 64px;
+    padding-bottom: 32px;
+    width: 1088px;
+    height: 88px;
+    top: 116px;
+    position: absolute;
+}
+
+.depoimentos__imagem {
+    bottom: 108px;
+    left: 580px;
+    position: absolute;
+}
+
+.depoimentos__nome {
+    color: var(--preto);
+    font-size: 16px;
+    bottom: 68px;
+    position: absolute;
+    left: 562.5px;
+    
+}
+
+
+.depoimentos__profissao {
+    color: var(--cinza);
+    font-size: 14px;
+    bottom: 44px;
+    left: 538px;
+    position: absolute;
 }
