@@ -9,6 +9,7 @@
     --vermelho: #8E2424;
     --preto: #101828;
     --fonte-principal: 'Inter';
+    --borda-vagas: #EAECF0;
 }
 
 body {
@@ -136,4 +137,45 @@ body {
 
 .talentos__imagem {
     padding-top: 2em;
+    padding-bottom: 5px;
+}
+
+.area__titulo {
+    color: var(--preto);
+    font-size: 20px;
+}
+
+.vagas__container {
+    padding-left: 21rem;
+}
+
+.vagas__area {
+    display: grid;
+    gap: 32px;
+    padding-top: 59px;
+}
+
+.vaga {
+    border-radius: 16px;
+    padding: 4px 12px;
+    border: 1px solid var(--borda-vagas);
+    width: 768px;
+    height: 136px;
+}
+
+.titulo-vaga {
+    color: var(--preto);
+    font-size: 18px;
+    line-height: 84px;
+    padding-left: 24px;
+}
+
+.informacoes {
+    color: var(--cinza);
+    font-size: 16px;
+    text-align: left;
+    display: flex;
+    line-height: 28px;
+    gap: 1.5rem;
+    padding-left: 24px;
 }
